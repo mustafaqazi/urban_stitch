@@ -1,0 +1,17 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks
+TC001,User Registration,Open HomePage > Signup,Validate user can register successfully.,Clerk API working fine,Pass,Medium,No issues found
+TC002,User Login,Open HomePage > SignIn,Validate login with valid/invalid credentials.,Clerk API working fine,Pass,Medium,No issues found
+TC003,Product Listing,Verify that all products are displayed on the homepage.,All products should be displayed correctly.,All products displayed as expected.,Pass,High,No issues found
+TC004,Product Details,Click on any product to view its details.,The product detail page should load correctly. ,Product detail page loaded without issues.,Pass,High,No issues found
+TC005,Add to Cart,Add product to cart > Verify cart contents,Verify items can be added to the cart.,Cart updates as expected,Passed,High,Works as expected
+TC006,Cart Operations,Add and remove items from the cart.,Cart should update correctly with the added/removed items.,Cart updates correctly when items are added or removed.,Pass,High,No issues found
+TC007,Checkout Process,Add product to cart > Checkout,Validate multi-step checkout functionality.,Cart Updating as expected,Pass,Medium,No issues found
+TC008,Payment Gateway,CheckOut Page -> Stripe Payment Page,Verify successful payment transactions.,Fail,Fail,High,Issues found
+TC009,Cross Browser Compatibility,"Run Site on different browsers, Chrome, Edge, Firefox","Test site on Chrome, Firefox, Edge",Working on different browsers as expected,Pass,Medium,No issues found
+TC010,Responsive Design,Resize browser window > Check layout,Test responsiveness on various devices.,Responsive layout working as intended,Pass,Medium,Test successful
+TC011,Performance,Lighthouse tool and Postman tool used ,Test site load times under high traffic.,Takes time to load the webpage sometimes,Pass,Medium,Slow response time observed
+TC012,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Pass,Medium,Handled gracefully
+TC013,Dynamic Routing,Click on a product to navigate to its detail page. ,The correct product detail page should load. ,Correct page loaded with the right details.,Pass,Medium,No issues found
+TC014,Category Filter,Apply different category filters.,Products should be filtered based on selected category.,Products filtered correctly based on the selected category.,Pass,Medium,No issues found
+TC015,Error Handling (Network),Simulate a network failure and attempt to load a product. ,Error message should be displayed indicating failure.,Error message displayed as expected.,Pass,Critical,Error handling works as expected.
+TC016,Error Handling (Invalid Data),Enter invalid data in a product search or form. ,Appropriate error message should be displayed.,Error message displayed for invalid input.,Pass,High,Handled correctly with clear message.
