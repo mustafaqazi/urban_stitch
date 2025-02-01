@@ -1,0 +1,6 @@
+*[_type == "product"]{
+  _id,
+  title,
+  price,
+  "imageUrl": image.asset->url
+}
