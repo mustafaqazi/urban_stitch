@@ -123,7 +123,7 @@ export const product = {
   ],
 };
 
-## Development Phase
+# Development Phase
 
 ## 1. Authentication
 - **User Registration & Login:** Implement user registration and login using **Clerk**.
